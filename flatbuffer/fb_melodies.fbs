@@ -1,0 +1,12 @@
+namespace melodies;
+
+table Tone {
+    frequency: float;
+    duration: int;
+}
+
+table Melody {
+    label: string;
+    tones: [Tone];
+    speed: float;
+}
